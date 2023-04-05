@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atividade Float</title>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .item1 {
+            display: inline-block;
+            padding: 12px;
+            border: 1px solid black;
+        }
+
+        .item2 {
+            display: inline-block;
+            padding: 12px;
+            border: 1px solid black;
+        }
+
+        .item3 {
+            display: inline-block;
+            padding: 12px;
+            border: 1px solid black;
+        }
+
+        .item4 {
+            display: inline-block;
+            padding: 12px;
+            border: 1px solid black;
+        }
+
+        section {
+            box-sizing: border-box;
+            border: 1px solid blue;
+            width: 100%;
+            float:left;
+        }
+ 
+        div {
+            margin: 5px;
+            width: 50px;
+            height: 150px;
+        }
+
+        .left {
+            float: left;
+            background: pink;
+        }
+
+        .right{
+            float: right;
+            background-color: cyan;
+        }
+
+        footer {
+            clear: both;
+            padding: 12px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Meu Site</h1>
+
+    <a href="#" class="item1">Home</a><a href="#" class="item2">About Us</a><a href="#" class="item3">Contact Us</a><a href="#" class="item4">Forum</a>
+
+    <section>
+        <div class="left">1</div>
+        <div class="left">2</div>
+        <div class="right">3</div>
+        <p> My first Web Site with Float Container <p>
+    </section>
+
+    <footer>Footer</footer>
+</body>
