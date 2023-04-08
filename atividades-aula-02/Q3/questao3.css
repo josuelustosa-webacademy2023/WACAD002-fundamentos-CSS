@@ -1,0 +1,31 @@
+.logo-microsoft {
+  width: 360px;
+  margin: 20px auto;
+}
+.quadro {
+  width: 120px;
+  height: 120px;
+  /* falta margin para os quadros */
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  float: left;
+}
+
+/* complete o código */
+.vermelho {
+  background-color: #F04E23;
+}
+
+.verde {
+  background-color: #7DB700;
+}
+
+.azul {
+  background-color: #00A1F1;
+}
+
+.amarelo {
+  background-color: #FFB900;
+}
