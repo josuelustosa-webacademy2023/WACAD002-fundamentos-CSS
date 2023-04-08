@@ -1,0 +1,50 @@
+body {
+  background-color: chocolate;
+}
+
+h1 {
+  font-size: 14pt;
+  font-family: Arial;
+  font-weight: normal;
+  color: moccasin;
+}
+
+h2 {
+  font-size: 14pt;
+  font-family: Arial;
+  font-weight: bold;
+  color: khaki;
+}
+
+p.album {
+  font-size: 12pt;
+  font-family: Arial;
+  font-weight: normal;
+  color: khaki;
+}
+
+p.ano {
+  font-size: 12pt;
+  font-family: Arial;
+  font-weight: bold;
+  color: ivory;
+}
+
+p.estrofe {
+  font-size: 14pt;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+  color: gold;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
+p.coro {
+  font-size: 14pt;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
+  font-style: italic;
+  color: gold;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
