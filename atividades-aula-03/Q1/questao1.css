@@ -1,0 +1,42 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+
+  background-color: #f5a00a;
+  border: 1px solid #db8c04;
+
+  padding: 4px 24px;
+  max-width: 78px;
+  border-radius: 6px 6px 0 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+
+  text-align: center;
+  font-size: 14px;
+  font-family: "Segoe UI";
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+li a#selected {
+  color: rgb(50, 50, 50);
+  font-weight: 500;
+}
